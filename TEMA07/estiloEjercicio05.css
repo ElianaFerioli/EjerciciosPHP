@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-oct-2016, 8:56:19
+    Author     : eliana
+*/
+@font-face {
+		font-family: "STJEDISE";
+		src: url("./STJEDISE.TTF");
+            }
+            
+            body{
+                background-image: url('./fondo.jpg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+                font-family: "STJEDISE";
+            }
+            header{
+                margin : 0px;
+                padding: 0px;
+                position: relative;
+                top: -7px;
+                left: -7px;
+                width: 1295px;
+                height: 150px;
+                background-color: yellow;
+                opacity: 0.7;
+                border: 2px solid grey;
+            }
+            .producto{
+                float: left;
+                margin-right: 50px;
+                margin-top: 80px;
+                width: 250px;
+                height: 370px;
+                text-align: center;
+                background-color: yellow;
+                opacity: 0.7;
+                border-radius: 5%;
+                border: 2px solid grey;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+                margin-top: 15px;
+                border-radius: 5%;
+            }
+            p{
+                font-size: 18px;
+                color: black;
+                margin-bottom: 2px;
+            }
+            h4{
+                color: black;
+                margin-top: 0px;
+                margin-left: 50px;
+                margin-bottom: 6px;
+                background-color: grey;
+                border: 3px solid black;
+                width: 150px;
+            }
+            #es001{
+                margin-left: 70px;
+            }
+            #ar001{
+                margin-right: 0px;
+            }
+            #cabecera{
+                float: left;
+                margin-top: 5px;
+                margin-left: 5px;
+                width: 140px;
+                height: 140px;
+            }
+            h1{
+                float: left;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+            .producto input[type="submit"]{
+                width: 120px;
+                height: 40px;
+                background-color: black;
+                color: yellow;
+                border: none;
+                font-weight: bold;
+                border-radius: 8%;
+                font-family: "STJEDISE";
+            }
+                .producto input[type="submit"]:hover{
+                    background-color: yellow;
+                    border: 2px solid black;
+                    color: black;
+                    cursor: pointer;
+                }
+            #carrito{
+                width: 100px;
+                height: 100px;
+                margin: 0px;
+                padding: 0px;
+                float: left;
+                margin-left: 200px;
+                margin-right: 30px;
+                margin-top: 10px;
+            }
+            .item{
+                width: 80px;
+                height: 70px;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+            #total{
+                position: absolute;
+                top: 73px;
+                left: 700px;
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #total h4{
+                display: inline-block;
+                background-color: transparent;
+                border: none;
+                width:30px;
+                height: 30px;
+                margin: 0px;
+                padding: 0px;
+                margin-top: 15px;
+                margin-right: 60px;
+                text-align: center;
+            }
+            #precioTotal{
+                margin-left: 3px !important;
+                margin-right: 135px !important;
+            }
+            form.eliminar{
+                display: inline-block; 
+                text-align: center;
+                padding: 0px;
+                margin: 0px;
+            }
+            .eliminar{
+                margin-top: 0px !important;
+                padding: 0px !important;
+                position: relative;
+                top: -10px;
+            }
+            .eliminar input{
+                border-radius: 100%;
+                width: 25px;
+                height: 25px;
+                color: yellow;
+                background-color: black;
+                border: none;
+                font-weight: bold;
+                margin-top: 0px;
+                margin-right: 65px;
+            }
+                .eliminar input:hover{
+                        background-color: yellow;
+                        border: 1px solid black;
+                        color: black;
+                        cursor: pointer;
+                    }
+            #eliminarLaser{
+                margin-left: 178px;
+            }
+                
+            
