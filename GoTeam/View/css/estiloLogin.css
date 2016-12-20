@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-nov-2016, 18:35:24
+    Author     : eliana
+*/
+@font-face {
+    font-family: fuentePrincipal;
+    src: url('../fonts/fontPrincipal.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-position-y: -25px;
+    background-size: cover;
+}
+form{
+    position: relative;
+    left: 32%;
+    top: 150px;;
+    background-color: white;
+    width: 35%;
+    height: 260px;
+    text-align: center;
+    box-shadow: 6px 7px 15px black;
+}
+input[type="text"], input[type="password"]{
+    font-size: 2.5em;
+    margin-top: 4%;
+    border: none;
+    border-bottom: 1px solid #000066;
+}
+input[type="submit"]{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 1.8em;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid #000066;
+    color:  #000066;
+}
+input[type="submit"]:hover{
+    background-color: #000066;
+    color:  white;
+    cursor: pointer;
+}
+a{
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    float: right; 
+    color: #000066;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}

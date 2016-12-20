@@ -59,7 +59,6 @@ and open the template in the editor.
         <?php
                 $x = $_GET['zona'];
                 $sala = unserialize($_SESSION["$x"]);
-                echo $_GET['numeroEntradas'];
                 echo $sala->vender($_GET['numeroEntradas']);
                 $_SESSION["$x"] = serialize($sala);
         ?>

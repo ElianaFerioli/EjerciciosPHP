@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-nov-2016, 16:13:21
+    Author     : eliana
+*/
+@font-face {
+    font-family: fuentePrincipal;
+    src: url('../fonts/fontPrincipal.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-position-y: -25px;
+    background-size: cover;
+}
+a{
+    /*Posicionamiento*/
+    float: left;
+    margin-top: 7%;
+    margin-left: 13%;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    /*Colores*/
+    background-color: #ffffff;
+    box-shadow: 6px 7px 15px black;
+    text-decoration: none;
+    color: #000066;
+    /*Alineación contenido*/
+    text-align: center;
+    box-sizing: content-box;
+}
+a:active{
+    text-decoration: none;
+    color: #000066;
+}
+a:visited{
+    text-decoration: none;
+    color: #000066;
+}
+a:hover{
+    cursor: pointer;
+    box-shadow: inset -5px -5px 20px #cccccc;
+}
+p{
+    font-family: fuentePrincipal;
+    margin-top: 17%;
+    color: #000066;
+    font-weight: bold;
+    font-size: 2.2em;
+    text-shadow: 3px 3px 3px grey;
+}
+
