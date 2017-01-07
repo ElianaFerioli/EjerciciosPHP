@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-nov-2016, 10:07:48
+    Author     : eliana
+*/
+.customInput{
+                margin-bottom: 0.7%;
+                margin-left: 0.2%;
+                width: 30%;
+                font-size: 1.3em;
+            }
+            .customSubmit, h3{
+                margin-left: 0.2%;
+                color: #3399ff
+            }
+            #modificarUsuario, #insertarUsuario{
+                margin-left: 2%;
+                margin-bottom: 1%;
+            }
+            form{
+                margin-bottom: 0.5%;
+            }
+            .page-header{
+                margin-bottom: -1%;
+            }
+            a{
+                margin-right: 15%;
+            }
+            .contenedor{
+                margin-left: 2%;
+                width: 95%;
+            }

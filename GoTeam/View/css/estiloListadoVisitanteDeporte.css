@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-nov-2016, 21:36:07
+    Author     : eliana
+*/
+
+
+@font-face {
+    font-family: fuentePrincipal;
+    src: url('../fonts/fontPrincipal.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-position-y: -25px;
+    background-size: cover;
+}
+#contenedorTabla{
+    width: 60%;
+    height: 500px;
+    position: relative;
+    top: 90px;
+    left: 20%;
+    overflow-y: scroll;
+    box-shadow: 6px 7px 15px black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.7);
+}
+tr:nth-child(even) {
+    background-color: rgba(192, 192, 192, 0.7);
+}
+tr{
+    border-bottom: 1px solid #000066;
+}
+th{    
+    color: #000066;
+    padding: 0.8%;
+    font-family: fuentePrincipal;
+    border-right: 2px solid #000066;
+    padding: 1%;
+    font-size: 1em;
+
+}
+td{
+    border-right: 2px solid #000066;
+    padding: 1%;
+}

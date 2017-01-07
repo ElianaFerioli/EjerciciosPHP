@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-nov-2016, 20:52:39
+    Author     : eliana
+*/
+.customInput{
+                margin-bottom: 0.7%;
+                margin-left: 0.2%;
+                font-size: 1.2em;
+                display: inline-block;
+            }
+            select{
+                width: 15.9%;
+                margin-bottom: 0.5%;
+            }
+            h3{
+                margin-bottom: -1%;
+            }
+            .customSubmit, h3{
+                margin-left: 0.2%;
+                color: #3399ff
+            }
+            #modificarEvento, #insertarEvento{
+                margin-left: 2%;
+                margin-bottom: 1%;
+            }
+            form{
+                margin-bottom: 0.5%;
+            }
+            .page-header{
+                margin-bottom: -1%;
+            }
+            a{
+                margin-right: 15%;
+            }
+            .contenedor{
+                margin-left: 2%;
+                width: 95%;
+            }
+.sprite{
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat; /*Si se pone no repeat hay que poner las coordenadas en negativo*/
+    width: 40px;
+    height: 40px;
+}
+.customInput{
+    width: 21.1% !important;
+}
+#deporte1{		
+    background-position: 0px 3px;		
+}
+#deporte2{		
+    background-position: -120px -75px;		
+}
+#deporte3{		
+    background-position: -40px -117px;		
+}
+#deporte4{		
+    background-position: -80px -117px;		
+}
+#deporte5{		
+    background-position: -120px -117px;		
+}
+#deporte6{		
+    background-position: -160px 7px;		
+}
+#deporte7{		
+    background-position: -160px -33px;		
+}
+#deporte8{		
+    background-position: -160px -75px;		
+}
+#deporte8{		
+    background-position: -160px -75px;		
+}
+#deporte9{		
+    background-position: -160px -115px;		
+}
+#deporte10{		
+    background-position: -40px 5px;		
+}
+#deporte11{		
+    background-position: -80px 5px;		
+}
+#deporte12{		
+    background-position: -120px 5px;		
+}
+#deporte13{		
+    background-position: 0px -35px;		
+}
+#deporte14{		
+    background-position: -35px -35px;		
+}
+#deporte15{		
+    background-position: -70px -35px;		
+}
+#deporte16{		
+    background-position: -113px -35px;		
+}
+#deporte17{		
+    background-position: 0px -75px;		
+}
+#deporte18{		
+    background-position: -40px -75px;		
+}
+#deporte19{		
+    background-position: -80px -73px;		
+}
+	
