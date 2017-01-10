@@ -18,7 +18,7 @@ class Articulo {
     private $fechArt;
     private $contArt;
     //Constructor
-    function __construct($cont, $tit, $fech, $cod) {
+    function __construct($tit, $cont, $fech, $cod) {
         $this->contArt = $cont;
         $this->titArt = $tit;
         if(isset($fech)){
@@ -76,7 +76,7 @@ class Articulo {
         $consulta = $conexion->query($seleccion);    
         $articulos= [];    
         while ($registro = $consulta->fetchObject()) {
-          $articulos[] = new Articulo($registro->ContArt, $registro->TitArt, $registro->FechArt, $registro->CodArt);
+          $articulos[] = new Articulo($registro->TitArt, $registro->ContArt, $registro->FechArt, $registro->CodArt);
         }   
         return $articulos;    
     }
@@ -85,7 +85,7 @@ class Articulo {
         $seleccion = "SELECT * FROM ARTICULO WHERE ".$atributo. "=\"".$valor."\"";
         $consulta = $conexion->query($seleccion);  
         $registro = $consulta->fetchObject();
-        $articulo = new Articulo($registro->ContArt, $registro->TitArt, $registro->FechArt, $registro->CodArt);
+        $articulo = new Articulo($registro->TitArt, $registro->ContArt, $registro->FechArt, $registro->CodArt);
         return $articulo;
     }
 
