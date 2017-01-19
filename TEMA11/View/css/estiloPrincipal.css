@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-ene-2017, 12:33:32
+    Author     : eli
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.modificacion{
+    display: inline-block;
+    cursor: pointer;
+    background-image: url('../img/modify.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.borrado{
+    display: inline-block;
+    cursor: pointer;
+    background-image: url('../img/delete.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: row;   
+    padding: 0px;
+    margin: 0px;
+}
+article *{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+article h4{
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+article h5{
+    background-color: grey;
+    color: white;
+    padding: 1%;
+}
+#contenedorBotones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+header{
+    background-color: #ff5c33;
+    margin-bottom: 1%;
+}
+header *{
+    color: white;
+}
+header h1{
+    text-shadow: 3px 3px 3px black;
+}

@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+{% block contenido %}
+        {% if not artMod is defined %}
+            <form method="get" action="../Controller/administracionBlog.php" class="thumbnail container">
+                <h3>Crear nuevo artículo</h3>
+                <input type="text" placeholder="Titulo del nuevo artículo" maxlength="50" size="45" autofocus name="titulo">
+                <textarea rows="5" cols="100" placeholder="Escribe tu artículo" name="contenido">
+
+                </textarea>
+                <br>
+                <input type="submit" value="Insertar Artículo" class="btn btn-primary">
+            </form>
+            {% else %}
+            <form method="get" action="../Controller/administracionBlog.php" class="thumbnail container">
+                <h3>Modificar artículo</h3>
+                <input type="hidden" name="codArt" value="{{ artMod.codigo }}">
+                <input type="text" placeholder="Titulo del nuevo artículo" maxlength="50" size="45" autofocus name="tituloModificado" value="{{ artMod.titulo }}">
+                <textarea rows="5" cols="100" placeholder="Escribe tu artículo" name="contenidoModificado">
+                    {{ artMod.contenido }}
+                </textarea>
+                <input type="submit" value="Modificar Artículo" class="btn btn-primary">
+            </form>
+            {% endif %}
+            <section class="container">
+                {% for art in art %}
+                    <article class="thumbnail">
+                        <h4>
+                            {{ art.titulo }}
+                        </h4>
+                        <h5>
+                            Fecha de publicación:{{ art.fecha }}<br>Número del artículo: {{ art.codigo }}
+                        </h5>
+                        <div>
+                            {{ art.contenido }}
+                        </div>
+                        <div id="contenedorBotones">
+                            <a class="modificacion" href="administracionBlog.php?modificar={{ art.codigo }}"></a>
+                            <a class="borrado" href="administracionBlog.php?borrar={{ art.codigo }}"></a>
+                        </div>
+                    </article>
+                {% endfor %}
+            </section>
+        {% endblock %}
