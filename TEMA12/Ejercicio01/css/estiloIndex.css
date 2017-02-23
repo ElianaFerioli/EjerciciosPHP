@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-ene-2017, 10:42:57
+    Author     : eliana
+*/
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    background-color: rgba(255,255,255,0.9); 
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    color: black;
+}
+#enviar{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 2.5em;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#enviar:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+#enviar:focus{
+    border: none;
+}
